@@ -1,0 +1,28 @@
+body{
+  text-align: center;
+  margin-top: 300px;
+}
+
+
+
+
+.buttton{
+    
+    text-align: center;
+    
+}
+
+#unu, 
+#doi{
+    text-align: center;
+    margin: 2px;
+    
+}
+
+#p{
+    border: 2px red;
+}
+
+#buton{
+    margin: 2px;
+}
