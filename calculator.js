@@ -9,12 +9,8 @@
                 return document.getElementById("apasa").value = z;
                
             }
-        } 
-            
-        
-       
-                
-        
+        }
+
         function myReset(){
              document.getElementById("unu").value = "";
              document.getElementById("doi").value = "";
@@ -26,6 +22,7 @@
             document.getElementById("buton").click();
         }
     });
+    
         document.addEventListener("keyup", function(event) {
         if (event.keyCode === 82) {
             document.getElementById("reset").click();

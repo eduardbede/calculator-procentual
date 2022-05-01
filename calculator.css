@@ -3,9 +3,6 @@ body{
   margin-top: 200px;
 }
 
-
-
-
 .buttton{
     
     text-align: center;
@@ -17,10 +14,6 @@ body{
     text-align: center;
     margin: 2px;
     
-}
-
-#p{
-    border: 2px red;
 }
 
 #buton{
@@ -40,4 +33,6 @@ button{
 
 input{
     height: 30px;
+    font-size: large;
+    font-weight: bold;
 }
