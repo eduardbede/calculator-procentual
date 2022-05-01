@@ -7,9 +7,11 @@
                   if(x !== "" && y !== ""){
                 let z = (y - x)/x * 100 +" %";
                 return document.getElementById("apasa").value = z;
-               
+                }
+                else{
+                    alert("Nu ai introdus numere!");
+                }
             }
-        }
 
         function myReset(){
              document.getElementById("unu").value = "";
@@ -22,7 +24,7 @@
             document.getElementById("buton").click();
         }
     });
-    
+
         document.addEventListener("keyup", function(event) {
         if (event.keyCode === 82) {
             document.getElementById("reset").click();
