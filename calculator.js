@@ -1,13 +1,15 @@
 
+        
+        
         function myFunction() {
-            
-            let x = document.getElementById("unu").value;
-            let y = document.getElementById("doi").value;
-            let z = (y - x)/x * 100 +" %";
-            
-    
-            document.getElementById("apasa").innerHTML = z;
-        }
+
+                let x = document.getElementById("unu").value;
+                    if(x > 0){
+                let y = document.getElementById("doi").value;
+                let z = (y - x)/x * 100 +" %";
+                document.getElementById("apasa").innerHTML = z;
+                }
+            }
         
         function myReset(){
              document.getElementById("unu").value = "";
