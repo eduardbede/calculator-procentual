@@ -1,15 +1,20 @@
 
-        
-        
-        function myFunction() {
-
+      
+      
+        function myFunction(functie) {
                 let x = document.getElementById("unu").value;
-                    if(x > 0){
                 let y = document.getElementById("doi").value;
+                  if(x !== "" && y !== ""){
                 let z = (y - x)/x * 100 +" %";
-                document.getElementById("apasa").innerHTML = z;
-                }
+                console.log(z)
+                return document.getElementById("apasa").innerHTML = z;
+               
             }
+        } 
+            
+        
+       
+                
         
         function myReset(){
              document.getElementById("unu").value = "";
