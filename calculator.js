@@ -6,7 +6,6 @@
                 let y = document.getElementById("doi").value;
                   if(x !== "" && y !== ""){
                 let z = (y - x)/x * 100 +" %";
-                console.log(z)
                 return document.getElementById("apasa").value = z;
                
             }
