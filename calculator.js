@@ -7,7 +7,7 @@
                   if(x !== "" && y !== ""){
                 let z = (y - x)/x * 100 +" %";
                 console.log(z)
-                return document.getElementById("apasa").innerHTML = z;
+                return document.getElementById("apasa").value = z;
                
             }
         } 
@@ -19,7 +19,7 @@
         function myReset(){
              document.getElementById("unu").value = "";
              document.getElementById("doi").value = "";
-             document.getElementById("apasa").innerHTML = "";
+             document.getElementById("apasa").value = "";
         }
     
         document.addEventListener("keyup", function(event) {
