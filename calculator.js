@@ -7,7 +7,8 @@
                   if(x !== "" && y !== ""){
                 let z = (y - x)/x * 100 +" %";
                 document.getElementById("error").innerHTML = "";
-                document.getElementById("apasa").value = z;
+                document.getElementById("apasa").value = parseFloat(z).toFixed(2) + " %";
+                
                 }
                 else{ 
                     document.getElementById("error").innerHTML = "Nu ai introdus Numere!"; 
