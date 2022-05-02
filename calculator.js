@@ -6,17 +6,19 @@
                 let y = document.getElementById("doi").value;
                   if(x !== "" && y !== ""){
                 let z = (y - x)/x * 100 +" %";
-                return document.getElementById("apasa").value = z;
+                document.getElementById("error").innerHTML = "";
+                document.getElementById("apasa").value = z;
                 }
-                else{
-                    alert("Nu ai introdus numere!");
-                }
+                else{ 
+                    document.getElementById("error").innerHTML = "Nu ai introdus Numere!"; 
             }
-
+        }
+            
         function myReset(){
              document.getElementById("unu").value = "";
              document.getElementById("doi").value = "";
              document.getElementById("apasa").value = "";
+             document.getElementById("error").innerHTML = "";
         }
     
         document.addEventListener("keyup", function(event) {
