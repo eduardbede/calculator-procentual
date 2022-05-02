@@ -23,6 +23,7 @@ body{
 #apasa{
     text-align: center;
     margin: 5px;
+    
 }
 
 button{
@@ -43,4 +44,9 @@ span{
     font-weight: bold;
     font-size: larger;
 
+}
+
+label{
+    font-size: larger;
+    font-weight: bolder;
 }
