@@ -50,3 +50,27 @@ label{
     font-size: larger;
     font-weight: bolder;
 }
+
+footer{
+    margin-top: 6em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 21px;
+    letter-spacing: 0.6px;
+    word-spacing: 0.8px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+  }
+  
+  #an{
+    margin-right: 10px;
+  }
+
+  a:link{
+    text-decoration: none;
+}
